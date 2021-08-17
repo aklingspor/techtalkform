@@ -1,0 +1,47 @@
+
+<form action="https://emailmarketing.klingspor.com/subscribe/79b3a158-0b7e-444d-a878-687e74ec9383" method="POST">
+  <div>
+    <label for="first_name">First name</label>
+    <input name="first_name" />
+  </div>
+  <div>
+    <label for="last_name">Last name</label>
+    <input name="last_name" />
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input name="email" required />
+  </div>
+
+  <!-- OPTIONAL, this allows you to set custom tags for the signup, at the moment we are not using this for tech talk signups.
+
+  <div>
+  <input type="hidden" name="tags" value="exampletagA;exampletagB;exampletagC" />
+  <div>
+
+ -->
+
+  <!-- OPTIONAL, this can be used to set a custom landing page other than emailmarketing.klingspor.com default page, this page is what signup users will see once they successfully sign up
+
+
+<input
+  type="hidden"
+  name="redirect_after_subscribed"
+  value="https://your-site/subscribed"
+/>
+
+-->
+
+  <!-- OPTIONAL, this can be used to set a custom landing page other than emailmarketing.klingspor.com default page, this page is what users will see once they attempt to signup with an email that is already signed up
+
+<input
+  type="hidden"
+  name="redirect_after_already_subscribed"
+  value="https://your-site/already-subscribed"
+/>
+
+-->
+
+  <button type="submit">Subscribe</button>
+  </div>
+</form>
